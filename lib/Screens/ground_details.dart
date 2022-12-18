@@ -213,11 +213,11 @@ late bool ballProvided=true,umpireProvided=true;
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          Text('Ball Provided'),
+                          Text('Ball Provided',style: TextStyle(fontSize: 11.0),),
                           Checkbox(value: ballProvided, onChanged: (bool? value) { },),
-                          Text('Umpire Provided'),
+                          Text('Umpire Provided',style: TextStyle(fontSize: 11.0),),
                           Checkbox(value: umpireProvided, onChanged: (bool? value) { },),
-                          Text('Ball Detail: $ball'),
+                          Text('Ball Detail: $ball',style: TextStyle(fontSize: 11.0),),
                           
                         ],
                       ),
@@ -302,11 +302,11 @@ late bool ballProvided=true,umpireProvided=true;
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          Text('Ball Provided'),
+                          Text('Ball Provided',style: TextStyle(fontSize: 11.0),),
                           Checkbox(value: true, onChanged: (bool? value) { },),
-                          Text('Umpire Provided'),
+                          Text('Umpire Provided',style: TextStyle(fontSize: 11.0),),
                           Checkbox(value: false, onChanged: (bool? value) { },),
-                          Text('Ball Detail: Cosco'),
+                          Text('Ball Detail: Cosco',style: TextStyle(fontSize: 11.0),),
                         
                         ],
                       ),

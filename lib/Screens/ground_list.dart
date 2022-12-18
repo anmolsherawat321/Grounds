@@ -160,7 +160,7 @@ Future<int> addGround() async{
                                         maximumSize: Size(70.0, 25.0),
                                         ),
                                     ),
-                                    Padding(padding: EdgeInsets.all(10.0)),
+                                    Padding(padding: EdgeInsets.all(5.0)),
                                    ElevatedButton(
                                       onPressed: (){},
                                       child: Text('1:00 pm',style: TextStyle(fontSize: 9.0),textAlign: TextAlign.start,),
@@ -171,7 +171,7 @@ Future<int> addGround() async{
                                         maximumSize: Size(70.0, 25.0),
                                         ),
                                     ),
-                                    Padding(padding: EdgeInsets.all(10.0)),
+                                    Padding(padding: EdgeInsets.all(5.0)),
                                    ElevatedButton(
                                       onPressed: (){},
                                       child: Text('4:00 pm',style: TextStyle(fontSize: 9.0),textAlign: TextAlign.start,),
@@ -199,7 +199,7 @@ Future<int> addGround() async{
                                         maximumSize: Size(70.0, 25.0),
                                         ),
                                     ),
-                                  Padding(padding: EdgeInsets.all(10.0)),
+                                  Padding(padding: EdgeInsets.all(5.0)),
                                    ElevatedButton(
                                       onPressed: (){},
                                       child: Text('4:00 pm',style: TextStyle(fontSize: 9.0),textAlign: TextAlign.start,),
@@ -238,7 +238,7 @@ Future<int> addGround() async{
                         Expanded(child: Align(alignment: Alignment(0.00, 0.0),child: Text('Pitch Type: '+groundList[index].pitch!,style: TextStyle(fontSize: 14.0)))),
                         
                         Container(
-                          width: 115.0,
+                          width: 90.0,
                         ),
                         Expanded(
                           
